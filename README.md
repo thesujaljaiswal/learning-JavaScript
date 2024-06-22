@@ -1,2 +1,2 @@
 # learning-JavaScript
-**Hello i am a BSc Computer Science graduate. I will be sharing my journey and learnings of JavaScript in this GitHub Repository. So that many more people can connect with me and start their own journey for learning and growing**
+'''Hello i am a BSc Computer Science graduate. I will be sharing my journey and learnings of JavaScript in this GitHub Repository. So that many more people can connect with me and start their own journey for learning and growing'''
