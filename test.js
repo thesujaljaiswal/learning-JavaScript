@@ -1,6 +1,7 @@
 // to run this file write node test.js (Writing this for my ease of running this file)
+
 // 01_basics
-console.log("Sujal");
+// console.log("Sujal");
 
 // 01_variables
 const accountId = 144243;
@@ -10,13 +11,12 @@ var accountPassword = "123456";
 Prefer Not to use var
 because of issue in block scope and functional scope
 */
-console.table([accountId, accountEmail, accountPassword]);
+// console.table([accountId, accountEmail, accountPassword]);
 
 // 02_datatypes
+
 // ("use strict"); this is used to tell that we a re using new JS Just like this learning journey
-
 // alert(3+3) // We write this in browser version and not in nodeJS version
-
 // always write code that is readable
 
 let name = "SUjal";
@@ -33,4 +33,10 @@ let isLoggedIn = true;
 
 // Object
 
-console.log(typeof null)//when we check type of null it shows up as object
+console.log(typeof null); //when we check type of null it shows up as object
+
+let score = "33a";
+// console.log(typeof score);
+
+const valueConverted = Number(score);
+// console.log(typeof valueConverted);
