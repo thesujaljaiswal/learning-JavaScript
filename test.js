@@ -75,3 +75,5 @@ const score2 = new Number(100000);
 
 // +++++++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++++++++++++++
 console.log(Math.random()*10)
+
+// Math has various functions/methods we can pracice that when we start using them
