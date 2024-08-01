@@ -72,8 +72,21 @@ const score2 = new Number(100000);
 // console.log(score2.toLocaleString('en-IN'));
 // by writing this we can seperate the numbers with comas
 
-
 // +++++++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++++++++++++++
-console.log(Math.random()*10)
+// console.log(Math.random()*10)
 
 // Math has various functions/methods we can pracice that when we start using them
+
+// +++++++++++++++++++++++++++++++ Dates +++++++++++++++++++++++++++++++++++++++++++
+
+const myDate = new Date();
+// there are various methods but i have written toLocaleString() which gives the local date and time
+// console.log(myDate.toLocaleString());
+// remember we get the values of month in numbers and it starts from 0
+// console.log(myDate.getMonth()); //output is in number
+
+// We can customize the date as we want and showcase according to us
+const customizedDate = new Date().toLocaleString("default", {
+  month: "long",
+});
+console.log(customizedDate); //output: Date in words
