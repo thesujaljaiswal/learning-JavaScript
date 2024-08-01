@@ -58,7 +58,20 @@ const b = ++a;
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Stack (used in Primitive datatypes), Heap(used in non-primitive datatypes)
-
 // when we change value in stack the actual valure is not tampered, but whereas in heap the actual value is changed/tampered
-
 // when we use `backticks` in strings it is said to bhi string interposition
+
+// Nums and maths
+const score1 = 400;
+// when we define number directly in const is detects by default that it is a number
+// console.log(score1);
+
+const score2 = new Number(100000);
+// but when we define specifically Number we get [Number:100] as our output
+// console.log(score2);
+// console.log(score2.toLocaleString('en-IN'));
+// by writing this we can seperate the numbers with comas
+
+
+// +++++++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++++++++++++++
+
