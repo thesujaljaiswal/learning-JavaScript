@@ -33,10 +33,32 @@ let isLoggedIn = true;
 
 // Object
 
-console.log(typeof null); //when we check type of null it shows up as object
+// console.log(typeof null); //when we check type of null it shows up as object
 
 let score = "33a";
 // console.log(typeof score);
 
 const valueConverted = Number(score);
 // console.log(typeof valueConverted);
+
+let x = 3;
+const y = x++;
+// when used ++ after then it will first store the value of x inside y and then increase the value of x
+// console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+// when used ++ after then it will first increase the value of x inside y and then store the value of x
+// console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+// Comparision(<, >) and equality(==) check are two different thing
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (used in Primitive datatypes), Heap(used in non-primitive datatypes)
+
+// when we change value in stack the actual valure is not tampered, but whereas in heap the actual value is changed/tampered
+
+// when we use `backticks` in strings it is said to bhi string interposition
