@@ -89,4 +89,4 @@ const myDate = new Date();
 const customizedDate = new Date().toLocaleString("default", {
   month: "long",
 });
-console.log(customizedDate); //output: Date in words
+// console.log(customizedDate); //output: Date in words
