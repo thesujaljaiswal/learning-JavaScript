@@ -30,7 +30,7 @@ function loginMessage(username = "User") {
 function addToCart(...values) {
   return values;
 }
-console.log(addToCart(200, 333, 425, 535));
+// console.log(addToCart(200, 333, 425, 535));
 
 // handling objects as a parameter in function
 const loginDetails = {
@@ -41,11 +41,12 @@ const loginDetails = {
 function getLoginDetails(object) {
   return `Successfully logged in ${object.username} using passsword ${object.password}`;
 }
-console.log(getLoginDetails(loginDetails));
+// console.log(getLoginDetails(loginDetails));
 
 // Handling arrays inside functions
 const names = ["SUJAL", "YASH", "AARAV", "HARSH"];
 function getDesiredIndexValue(array, index){
     return array[index]
 }
-console.log(getDesiredIndexValue(names, 2))
+// console.log(getDesiredIndexValue(names, 2))
+
